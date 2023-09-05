@@ -8,7 +8,7 @@ namespace UpgradeSystem {
 
    struct GameData
    {
-      public string gameName;
+      //public string gameName;
       public string description;
       public string version;
       public string url;
@@ -27,7 +27,7 @@ namespace UpgradeSystem {
 
 
 
-      private string jsonDataURL = "https://www.voxelium.games/gamedev/games_data/KittyPrankster_data.json";
+      private string jsonDataURL = "https://www.voxelium.games/gamedev/games_data/tutor_data.json";
       static bool isAlreadyCheckedForUpdates = false;
 
       GameData latestGameData;
